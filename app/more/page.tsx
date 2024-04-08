@@ -1,5 +1,5 @@
 import FeatureUpdate from "@/components/FeatureUpdate";
-import Header from "@/components/Header";
+import Header from "@/components/Sidebars/Header";
 
 const MorePage = () => {
   return (

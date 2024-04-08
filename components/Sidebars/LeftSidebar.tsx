@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
-import ProfileBtn from "./ProfileBtn";
+import ProfileBtn from "../Buttons/ProfileBtn";
 import { Twitter } from "lucide-react";
 
 const LeftSidebar = () => {

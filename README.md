@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Twitter Clone Application
 
-## Getting Started
+This is a Twitter clone application built using Next.js with various functionalities such as tweet feed, profile management, follow users, like tweets, recommend users, and Google authentication. The application also utilizes GraphQL server for data fetching and management.
 
-First, run the development server:
+## Technologies Used:
+
+- **Frontend Framework**: Next.js
+- **State Management**: React Query
+- **UI Framework**: Shadcn UI, Tailwind CSS
+- **Toast Notifications**: React Toast
+- **Authentication**: Google Authentication
+- **Data Querying**: GraphQL
+
+## Functionalities:
+
+### 1. Tweet Feed:
+
+Users can view a feed of tweets from users they follow and interact with these tweets by liking, replying, or retweeting them.
+
+### 2. Profile:
+
+Users can view and edit their profile information, including their bio, profile picture, and other details.
+
+### 3. Follow User:
+
+Users can follow other users, which allows them to see tweets from those users in their feed.
+
+### 4. Like Tweet:
+
+Users can like tweets posted by other users. Liked tweets will be displayed in the user's profile under the "Likes" section.
+
+### 5. Recommend Users:
+
+The application provides recommendations for users to follow based on their interests, interactions, and connections.
+
+### 6. Google Authentication:
+
+Users can sign in to the application using their Google accounts for a seamless and secure authentication process.
+
+## Getting Started:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/nagajuna/twitter-clone.git
+```
+
+2. Install dependencies:
+
+```bash
+cd twitter-clone
+npm install
+```
+
+3. Set up environment variables:
+
+   Create a `.env` file in the root directory of your project and add the necessary environment variables such as API keys, secrets, etc.
+
+4. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Access the application:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open your browser and navigate to `http://localhost:3000` to view the Twitter clone application.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Project Structure:
 
-## Learn More
+- **app**: Contains Next.js pages for different routes.
+- **components**: Reusable React components used across the application.
+- **hooks**: Custom hooks for managing state and side effects.
+- **graphql**: GraphQL queries and mutations.
+- **public**: Static assets such as images, icons, etc.
+- **utils**: Utility functions used throughout the application.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributors:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Nagarjuna Chenna](https://github.com/nagarjuna06) - Role: Full Stack Developer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Acknowledgments:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Special thanks to [Twitter](https://twitter.com) for inspiring this project and providing a platform for communication and expression.

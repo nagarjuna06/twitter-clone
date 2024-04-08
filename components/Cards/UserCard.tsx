@@ -3,9 +3,9 @@ import { User } from "@/gql/graphql";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { useCallback } from "react";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import { useFollowUser, useUnFollowUser } from "@/hooks/user";
-import FollowBtn from "./FollowBtn";
+import FollowBtn from "../Buttons/FollowBtn";
 
 const UserCard = ({ user }: { user: User }) => {
   const userFullName = `${user.firstName} ${user.lastName}`;

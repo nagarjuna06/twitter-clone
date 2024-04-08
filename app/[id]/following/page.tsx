@@ -1,6 +1,6 @@
 "use client";
-import BtnBack from "@/components/BtnBack";
-import UserCard from "@/components/UserCard";
+import BtnBack from "@/components/Buttons/BtnBack";
+import UserCard from "@/components/Cards/UserCard";
 import { User } from "@/gql/graphql";
 import { useGetFollowingsList } from "@/hooks/user";
 import { useParams } from "next/navigation";

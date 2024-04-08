@@ -1,5 +1,5 @@
-import RecommendUsers from "./RecommendUsers";
-import SignIn from "./SignIn";
+import RecommendUsers from "../Cards/RecommendUsers";
+import SignIn from "../Buttons/SignIn";
 
 const RightSidebar = () => {
   return (

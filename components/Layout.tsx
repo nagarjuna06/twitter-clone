@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
-import LeftSidebar from "./LeftSidebar";
-import RightSidebar from "./RightSidebar";
+import LeftSidebar from "./Sidebars/LeftSidebar";
+import RightSidebar from "./Sidebars/RightSidebar";
 
 const Layout = ({ children }: PropsWithChildren) => {
   return (

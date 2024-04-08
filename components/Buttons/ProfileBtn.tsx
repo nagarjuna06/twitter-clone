@@ -3,11 +3,11 @@ import { useCurrentUser } from "@/hooks/user";
 import Image from "next/image";
 import React, { useCallback, useState } from "react";
 import { LogOut } from "lucide-react";
-import DialogBox from "./Dialogbox";
+import DialogBox from "../Dialogbox";
 import Cookies from "js-cookie";
 import toast from "react-hot-toast";
 import { useQueryClient } from "@tanstack/react-query";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 const Profile = () => {
   const { user } = useCurrentUser();

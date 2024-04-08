@@ -1,7 +1,7 @@
 "use client";
-import BtnBack from "@/components/BtnBack";
-import SignIn from "@/components/SignIn";
-import TweetCard from "@/components/TweetCard";
+import BtnBack from "@/components/Buttons/BtnBack";
+import SignIn from "@/components/Buttons/SignIn";
+import TweetCard from "@/components/Cards/TweetCard";
 
 import { Tweet } from "@/gql/graphql";
 
@@ -13,8 +13,8 @@ import { useParams } from "next/navigation";
 import { CalendarDays, MapPin } from "lucide-react";
 import Loading from "../loading";
 import { useGetUserById } from "@/hooks/user";
-import FollowBtn from "@/components/FollowBtn";
-import Header from "@/components/Header";
+import FollowBtn from "@/components/Buttons/FollowBtn";
+import Header from "@/components/Sidebars/Header";
 
 const ProfilePage = () => {
   const { id } = useParams();

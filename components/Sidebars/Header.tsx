@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from "react";
-import BtnBack from "./BtnBack";
+import BtnBack from "../Buttons/BtnBack";
 
 const Header = ({ children }: PropsWithChildren) => {
   return (

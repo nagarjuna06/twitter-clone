@@ -1,7 +1,7 @@
 "use client";
 import Loading from "@/components/Loading";
 import CreateTweet from "@/components/Tweet/CreateTweet";
-import TweetCard from "@/components/TweetCard";
+import TweetCard from "@/components/Cards/TweetCard";
 import { Tweet } from "@/gql/graphql";
 import { useTweets } from "@/hooks/tweet";
 import { Sparkles } from "lucide-react";

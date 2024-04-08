@@ -2,7 +2,7 @@
 
 import { useFollowUser, useUnFollowUser } from "@/hooks/user";
 import { useCallback } from "react";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 const FollowBtn = ({
   id,
