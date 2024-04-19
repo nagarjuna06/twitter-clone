@@ -21,7 +21,7 @@ const LeftSidebar = () => {
           >
             <div className="flex gap-5 items-center group-hover:bg-secondary rounded-full p-2 md:px-4 w-fit">
               <span className="transition-all duration-500">
-                <each.Icon />
+                <each.Icon className="max-sm:h-5 max-sm:w-5" />
               </span>
               <span
                 className={`text-lg hidden  md:inline ${
